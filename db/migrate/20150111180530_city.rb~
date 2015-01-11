@@ -1,0 +1,12 @@
+class City < ActiveRecord::Migration
+  def up
+  add_column :sales , :city , :string
+  end
+ 
+  def down
+  end
+
+  def change
+  end
+
+end

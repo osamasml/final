@@ -18,5 +18,9 @@ end
    puts "#{city}, #{good}, #{price}, #{date}"
    #Add code here to save the record to the database.
    
+
+sales  = {:city =>  city   , :good  => good , :price => price , :date => date}
+  Sale.create!(sale)
+  
 end
 
